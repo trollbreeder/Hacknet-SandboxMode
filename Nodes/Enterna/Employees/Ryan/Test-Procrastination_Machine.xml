@@ -1,0 +1,12 @@
+<Computer id="pmTest" name="RYANRELEASES-ProcrastinationMachine-TestPC" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="0" />
+ <portRemap>554=65,1433=2433,21=8080</portRemap>
+
+ <file path="RYANRELEASES/" name="Procrastination-Machine.txt">PROCRASTINATION MACHINE is a new Test Operating System for the company RYAN-RELEASES. This is a Test PC, there is a personal copy but you WILL NOT find it *wink*. All Procrastination Machine Systems will have the name "PM-"Persons Username". Have a good day and make sure to throw eggs and toilet paper at ENTERNA! -Ryan from RYANRELEASES.</file>
+ 
+ <dlink target="pmPersonal" />
+</Computer>

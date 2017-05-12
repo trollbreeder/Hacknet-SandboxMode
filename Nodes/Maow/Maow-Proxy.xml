@@ -1,0 +1,13 @@
+<Computer id="maowProxy" name="Maow Proxy" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80, 104</ports>
+ <portsForCrack val="6" />
+ <proxy time="1" />
+ 
+ <tracker />
+ 
+ <dlink target="maowMainframe" />
+ 
+</Computer>

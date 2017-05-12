@@ -1,0 +1,10 @@
+<Computer id="enternaMarita" name="ENTERNA-OFFICE-MARITA" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="0" />
+ <portRemap>554=65,1433=2433</portRemap>
+
+ <dlink target="enternaManx" />
+ </Computer>

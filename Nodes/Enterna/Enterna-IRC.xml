@@ -1,0 +1,43 @@
+<Computer id="enternaIRC" name="ENTERNA IRC Server" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="1" > 
+
+ <ports>22, 554, 21, 1433</ports>
+ <portsForCrack val="4" />
+ <portRemap>22=31</portRemap>
+ <proxy time="-1" />
+ <trace time="600" />
+ 
+ <file path="bin" name="Mailflow.exe">#SMTP_CRACK#</file>
+ 
+ <dlink target="enternaMain" />
+ <dlink target="enternaHoneypot" />
+ 
+ <IRCDaemon themeColor="67,204,148" name="Misc IRC Channel" needsLogin="false"> 
+  <user name="Marcia" color="0,209,232"/> 
+  <user name="SysDotDLL" color="202,98,0"/> 
+  <user name="Kernel" color="0,196,82"/> 
+  <user name="Verne" color="0,196,82"/> 
+  <user name="Manx" color="0,196,82"/> 
+  <user name="EnBot" color="0,196,82"/> 
+  <user name="FEEZBERD" color="0,196,82"/> 
+  <post user="Marcia">I dare Manx to say "Pumpkin Lilies Daisy Roses" because I'm an idiot.</post> 
+  <post user="Verne">Pumpkin Lilies Daisy Roses</post> 
+  <post user="SysDotDLL">yay</post> 
+  <post user="SysDotDLL">Pumpkin Lilies Daisy Roses</post> 
+  <post user="Manx">ermagersh Marcia.</post>
+  <post user="Marcia">THIS WAS NOT APART OF THE PLAN!!!!!</post>
+  <post user="Manx">Pumpkin Lilies Daisy Roses</post>
+  <post user="Marcia">AHHHHHHHHHHHHHHHHHHHH</post>
+  <post user="EnBot">User Marcia left ENTERNA.. Byebye Marcia</post>
+  <post user="Manx">LOLOLOL</post>
+  <post user="EnBot">Pumpkin Lilies Daisy Roses</post>
+  <post user="Manx">LMFAO THIS IS THE FUNNIEST THING IVE EVER SEEEEN</post>
+  <post user="FEEZBERD">When I'm getting back to ENTERNA I'm going to fire you all.</post>
+  <post user="FEEZBERD">Pumpkin Lilies Daisy Roses</post>
+  <post user="EnBot">User Manx left ENTERNA.. Byebye Manx</post>
+  <post user="EnBot">User Kernel left ENTERNA.. Byebye Kernel</post>
+  <post user="EnBot">User Verne left ENTERNA.. Byebye Verne</post>
+  <post user="EnBot">User SysDotDLL left ENTERNA.. Byebye SysDotDLL</post>
+  <post user="FEEZBERD">Dang it.</post>
+  <post user="EnBot">User FEEZBERD left ENTERNA.. Byebye FEEZBERD</post>
+  </IRCDaemon>
+</Computer>

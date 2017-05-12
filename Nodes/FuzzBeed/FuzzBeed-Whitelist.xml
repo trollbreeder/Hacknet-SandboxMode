@@ -1,0 +1,11 @@
+<Computer id="fuzzbeedWhitelist" name="ENTERNA-WHITELIST-912" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="1" > 
+
+ <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+ <ports>22, 554</ports>
+ <portsForCrack val="2" />
+ 
+ <file path="bin" name="FTPDASH.exe">#FTP_FAST_EXE#</file>
+ 
+ <dlink target="fuzzbeedInternal" />
+</Computer>

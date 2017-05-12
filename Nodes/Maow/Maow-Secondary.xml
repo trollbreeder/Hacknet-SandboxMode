@@ -1,0 +1,18 @@
+<Computer id="maowSecondary" name="Maow Secondary" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80, 104</ports>
+ <portsForCrack val="6" />
+ <proxy time="1" />
+ <firewall level="12" solution="123456789abc" additionalTime="1.0"/>
+ 
+ <tracker />
+ 
+ <dlink target="coelPC" />
+ 
+ <file path="bin" name="NortronAntivirus.exe">#BINARYSMALL#</file>
+ <file path="sys" name="NortronFirewall.dll">#BINARY#</file>
+ <file path="sys" name="FirewallSetup.sys">Password-123456789abc</file>
+ 
+</Computer>

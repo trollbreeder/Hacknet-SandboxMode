@@ -1,0 +1,18 @@
+<Computer id="fuzzbeedMain" name="FuzzBeed" security="2" allowsDefaultBootModule="false" icon="DLCServer" type="1" > 
+
+ <adminPass pass="TheTryGuys" />
+ <ports>192, 554</ports>
+ <portsForCrack val="0" />
+ 
+ <file path="home/videos" name="CouplesTryBeingHonest.mp4">#BINARYSMALL#</file>
+ <file path="home/descriptions" name="CouplesTryBeingHonest.txt">Couples Try Being Totally Honest For One Million Years</file>
+ <file path="home/other" name="Steve">IOIOIOIOIOOIOIOIOIOIOIOIOIOIOI</file>
+ <file path="bin" name="Fuzzcrack.exe">#RTSP_EXE#</file>
+ 
+ <eosDevice name="Steve's ePhone 4S" id="stevePhone" icon="ePhone2" empty="true"> 
+ <note>OIIOIIOIIOIOOOIIIOIOOIOIIIIOIOIOIIOIIOOIOIOIOIOOIOIOIOOIIIIIOIIIIOIOIOIIOOIOIOIOIOIO</note> 
+ <note>101010101010101010010101010010101010100110101001010101010101010101010010101011010101</note> 
+ </eosDevice>
+ 
+ <dlink target="fuzzbeedMail" />
+</Computer>

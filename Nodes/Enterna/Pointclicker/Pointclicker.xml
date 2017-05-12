@@ -1,0 +1,8 @@
+<Computer id="pointclicker" name="PointClicker" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="1" > 
+
+ <ports>22, 21, 25, 80</ports>
+ <portsForCrack val="0" />
+ 
+ <PointClicker />
+ 
+</Computer>

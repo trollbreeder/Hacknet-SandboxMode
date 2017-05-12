@@ -1,0 +1,20 @@
+<Computer id="maowWebfront" name="Maow Webfront" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <proxy time="3" />
+ <trace time="500" />
+ 
+ <tracker />
+ 
+ <file path="bin" name="MaowPortTest.exe">#MEDICAL_PROGRAM#</file>
+ <file path="bin" name="MPT_Kernel.dll">#BINARYSMALL#</file>
+ <file path="bin" name="build.bat">#BINARY#</file>
+ 
+ <file path="home/homefront" name="notice.txt">What the crap is a webfront? Why you give me this crap ENTERNA?</file>
+ 
+ <dlink target="maowProxy" />
+ 
+</Computer>

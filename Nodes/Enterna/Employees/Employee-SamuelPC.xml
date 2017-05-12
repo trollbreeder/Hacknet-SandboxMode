@@ -1,0 +1,18 @@
+<Computer id="enternaSamuel" name="ENTERNA-OFFICE-SAMUEL" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <portRemap>554=65,1433=2433</portRemap>
+ <proxy time="3" />
+ <trace time="400" />
+ 
+ <file path="home/work/ThemeChanger" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+ <file path="home/work/DeviceScanner" name="DeviceScanner.exe">#EOS_SCANNER_EXE#</file>
+ <file path="home/work/TunePlay" name="TunePlay.exe">#DLC_MUSIC_EXE#</file>
+ <file path="home/useless/Bouncer" name="Bounce.exe">#FTP_CRACK#</file>
+ <file path="home" name="omega.txt">I found the IP to POINTCLICKER OMEGA! You've seen Release, you've seen Alpha and Beta.. but you've never seen OMEGA EDITION! It's the BEST. Trusttt me: 156.183.121.6</file>
+ 
+ <dlink target="enternaRouter" />
+ </Computer>

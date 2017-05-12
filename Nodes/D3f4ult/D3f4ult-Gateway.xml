@@ -1,0 +1,14 @@
+<Computer id="defaultGateway" name="D3f4ult_Gateway" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <portRemap>554=65,1433=2433</portRemap>
+ <proxy time="2" />
+ 
+ <tracker />
+
+ <dlink target="defaultRepo" />
+ 
+</Computer>

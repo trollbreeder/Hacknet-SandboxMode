@@ -1,0 +1,30 @@
+<Computer id="defaultRepo" name="D3f4ult_Repo" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="2" />
+ <portRemap>554=54,1433=43</portRemap>
+ <proxy time="2" />
+ 
+ <tracker />
+
+ <file path="repo" name="d3f_ROOTKIT.zip">#BINARY#</file>
+ <file path="repo" name="d3f_ROOTKIT_EXTRAS.zip.zip">#BINARY#</file>
+ <file path="repo" name="d3f_sysinfo.bat">#BINARY#</file>
+ <file path="repo" name="d3f_CONTACT.txt">5/11/2017 - Contacted an anonymous user named Ryan.</file>
+ <file path="repo/stolen" name="maow_BACKDOOR.zip">#BINARY#</file>
+ <file path="repo/stolen" name="maow_FAKEBACKDOOR.zip">#BINARYSMALL#</file>
+ <file path="repo/stolen" name="maow_MESSAGETOSELF.txt">Message to self: Remember to replace the backdoor with the fake backdoor and then delete this message.</file>
+ <file path="message" name="DONT">DONT</file>
+ <file path="message" name="MESS">MESS</file>
+ <file path="message" name="WITH">WITH</file>
+ <file path="message" name="ME">ME</file>
+ <file path="message" name="D3F4ULT">D3F4ULT</file>
+ <file path="message" name="I">I</file>
+ <file path="message" name="AM">AM</file>
+ <file path="message" name="STRONG">STRONG</file>
+ 
+ <dlink target="defaultProxy" />
+ 
+</Computer>

@@ -1,0 +1,14 @@
+<Computer id="defaultProxy" name="D3f4ult_Proxy" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="0" />
+ <proxy time="1" />
+ 
+ <tracker />
+
+ <dlink target="maowHoneypot" />
+ <dlink target="maowWebfront" />
+ 
+</Computer>

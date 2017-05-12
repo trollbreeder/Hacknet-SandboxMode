@@ -1,0 +1,43 @@
+<Computer id="enternaFiledrop" name="ENTERNA-FILEDROP" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="0" />
+ <portRemap>554=65,1433=2433</portRemap>
+ <proxy time="-1" />
+ <trace time="-1" />
+ 
+ <dlink target="enternaBradford" />
+ 
+ <file path="ENTERNA/Filedrop" name="Filedrop-Hardware.dll">#BINARY#</file>
+ <file path="ENTERNA/Filedrop" name="747FlightOps.dll">#BINARYSMALL#</file>
+ <file path="ENTERNA/Filedrop" name="License.txt">User License Agreement - Welcome to your new installation of the ENTERNA Filedrop system. This uses SPAM = System Protected, Awesome Messaging. To run Filedrop systems connect to your user via ENTERNA Router but don't use our crappy competitor's "Jupiter" routers or we will brainwash you. Goodbye user.</file>
+ 
+ <file path="Employees/Samuel/Work/ThemeChanger" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+ <file path="Employees/Samuel/Work/DeviceScanner" name="DeviceScanner.exe">#EOS_SCANNER_EXE#</file>
+ <file path="Employees/Samuel/Work/TunePlay" name="TunePlay.exe">#DLC_MUSIC_EXE#</file>
+ <file path="Employees/Samuel/Work/Prototype/Bouncer" name="Bounce.exe">#FTP_CRACK#</file>
+ <file path="Employees/Samuel/Work/Prototype/ENTERNAcrack" name="ENTERNAcrack.exe">#RTSP_EXE#</file>
+ <file path="Employees/Samuel/Work" name="omega.txt">I found the IP to POINTCLICKER OMEGA! You've seen Release, you've seen Alpha and Beta.. but you've never seen OMEGA EDITION! It's the BEST. Trusttt me: 156.183.121.6</file>
+ 
+ <file path="Employees/Bradford/Rants" name="Marita_Rant.txt">SO! One of our dear beloved employees decided they would have a brain transplant with a monkey, they figured out they are no longer a smart person and starting plagirizing everyone's work. Including Samuel McGenius Man himself, meaning I can't do anything without GOSH DARN MARITA plagirizing my work.. darn it ENTERNA JUST FIRE HER ALREADY.</file>
+ <file path="Employees/Bradford/Rants" name="Manx_Rant.txt">So I think Manx is also ranting on Marita, by plagirizing their plagirism which Marita plagirized from Samuel which makes me freaking confused! Also, btw don't PLAGIRIZE!</file>
+ <encryptedFile path="Employees/Bradford/Beats/encrypted" name="WeAreNumberTwo.dec" extension=".mp3" header="BRADFORD BEATS(TM)">#BINARY#</encryptedFile>
+ <file path="Employees/Bradford/Work/Betas/NotDecypher" name="NotDecypher.exe">#DECYPHER_PROGRAM#</file>
+
+ <file path="SPAM" name="AdminNote.txt">Hello, this is the SPAM Upload system. SPAM = System Protected, Awesome Messaging. SPAM is a secure system based filedrop, it's a system where the computer can only be access VIA the internet. Login to the Router and then you'll be able to find the Filedrop somewhere. PLEASE! Remember your passwords or you'll get hacked up to bits. I will not tell anyone your passwords or remind ANYBODY!! -ENTERNA Administrator</file>
+ 
+ <file path="SPAM/Bradford/Rants" name="Marita_BANNED.txt">HEH! Marita's files were removed from ENTERNA-FILEDROP cause she got banned or she found the monkey who gave her his brain and then took her original brain back then deleted everything!</file>
+ <file path="SPAM/Bradford/Rants" name="Manx_Rant_Two.txt">So, Manx also deleted the TunePlay plagirism since Marita did. I kindly asked her to and she said she would and then slapped me in the face. I really dislike Manx.</file>
+
+ <file path="SPAM/Manx/Rants" name="Bradford_Rant.txt">So Bradford has been making rants about.. ME!!!! WHY WOULD YOU DO THAITEJDIFHDIOHFIEHFIO YOU PIECE OF CRAP YOU JUSRKE KR SJDFIOHFIU IM GONNA SLAP YOU IN THE FACE NEXT TIME I SEE YOU!!!!!!!!!!! FODJOFIHDFHDH</file>
+ 
+ <file path="SPAM/Samuel/NOT_Rants" name="Bradford_NOT_Rant.txt">I really like Bradford, he hasn't made a rant about me which I prefer to stay the case.. though he did call me Samuel McSmarty or something. It's okay Bradford I will forgive you.</file>
+ <file path="SPAM/Samuel/Rants" name="Programming_Rants.txt">Geez, I really hate being the only programmer here. It makes me sad, though Bradford does help out sometimes.. he makes weird beatsies or something whatever Marita called it. Though WHY DID CHANGING THE NAME OF THE ENTERNA FILEDROP BASICALLY FRY THE MOTHERBOARD OF THE ENTERNA ROUTER! WHY DOES PROGRAMMING IN THIS WORLD ALWAYS BREAK STUFF UGH.</file>
+ 
+ <file path="SPAM/Marita/Rants" name="FJDIOFJDIFJIP.txt">FHUDFHOHSFODHOIFHEIODHFIOEHFOWHOFHEUIHFUEGFUIGEUGFEGOTYPINGSUCKSIEUIGOIHOHROGHOEAHGEHGHOEHIEHG</file>
+ <file path="SPAM/Marita/Rants" name="I_Am_A_Smart_Being.txt">Just kidding! It's me, Brad freaking Ford! Thanks to Samuel's ENTERNAcrack.exe program I was able to hack into Marita's account and then rant on her from her own profile heh. So did you think that she became a smart being or intellectual before? She didn't. That was just me, Bradford McHacker.</file>
+
+ <encryptedFile path="SPAM/Employees/Ryan/Work/Dome" name="DomeWIP.dec" extension=".txt" header="RYAN RELEASES (TM)">This is Dome, my project. My NEW project, you've probably already seen it somewhere. A teaser or something.. but hello.</encryptedFile>
+</Computer>

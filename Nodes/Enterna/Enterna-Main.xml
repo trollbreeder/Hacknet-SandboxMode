@@ -1,0 +1,18 @@
+<Computer id="enternaMain" name="ENTERNA" security="2" allowsDefaultBootModule="false" icon="DLCServer" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433</ports>
+ <portsForCrack val="4" />
+ <portRemap>554=65</portRemap>
+ <proxy time="4" />
+ <trace time="500" />
+ 
+ <file path="bin" name="ExWorm.exe">#WEB_CRACK#</file>
+ 
+ <dlink target="pointclickerBeta" />
+ <dlink target="pointclicker" />
+ <dlink target="pointclickerAlpha" />
+ <dlink target="enternaSamuel" />
+ 
+</Computer>

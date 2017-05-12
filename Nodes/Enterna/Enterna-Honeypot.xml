@@ -1,0 +1,8 @@
+<Computer id="enternaHoneypot" name="Totally ENTERNA" security="2" allowsDefaultBootModule="true" icon="laptop" type="1" > 
+
+ <ports>22, 554, 21, 1433</ports>
+ <portsForCrack val="413" />
+ <proxy time="8" />
+ <trace time="5" />
+ 
+</Computer>

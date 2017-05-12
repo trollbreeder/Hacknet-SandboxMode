@@ -1,0 +1,30 @@
+<Computer id="enternaRyan" name="Ryans Laptop" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <portRemap>554=65,1433=2433,21=8080</portRemap>
+ <firewall level="6" solution="Robot0" additionalTime="1.0"/>
+
+ <file path="Work/Prototype/Dome" name="DomeWIP.txt">This is Dome, my project. My NEW project, you've probably already seen it somewhere. A teaser or something.. but hello.</file>
+ <file path="Work/Programs/Hacks" name="SSHcrack.exe">#SSH_CRACK#</file>
+ <file path="Work/Programs/Hacks" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+ <file path="Work/Programs/Hacks" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+ <file path="Work/Programs/Hacks" name="Note.txt">If you are an employee of mine I'd recommend you stay away from this folder, Yes I know I didn't encrypt this system or add a user but really who even cares?</file>
+ <file path="Other/Notes" name="ENTERNA_Motto.txt">ENTERNA - The Future Isn't A Crappy Technology Company Motto.</file>
+ <file path="Other/Notes" name="Cracked_ePhone_Pass.txt">notAlpine</file>
+ <file path="Other/Batch" name="ENTERNA_Motto-Hacker-WIP.bat">@ECHO OFF</file>
+ <file path="Games/Mintcraft" name="Mintcraft.exe">#BINARY#</file>
+ <file path="Games/Cracknet" name="Cracknet.exe">#BINARYSMALL#</file>
+ <file path="Games/Cracknet" name="Credits.txt">Made by Tatt Mriobanni (Norran), Daemon, and some other people.</file>
+ <file path="Programs/Diskerd" name="Diskerd.exe">#BINARY#</file>
+ <file path="Programs/Diskerd/Mods" name="BetterDiskerd-Installer.exe">#BINARY#</file>
+ 
+ <eosDevice name="Ryan's ePhone 1,000,000 Plus" id="enternaRyanPhone" icon="ePhone2" empty="false" passOverride="notAlpine">  
+ <file path="eos/Stop_Free_Antivirus/Trojans" name="ePhone-JailBreak-TROJAN.exe">#BINARY#</file> 
+ </eosDevice>
+ 
+ <dlink target="pmTest" />
+ 
+</Computer>

@@ -1,0 +1,38 @@
+<Computer id="enternaRouter" name="ENTERNA-ROUTER-SHARED" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <portRemap>554=65,1433=2433</portRemap>
+ <proxy time="3" />
+ <trace time="400" />
+ 
+ <file path="Employees/Samuel/Work/ThemeChanger" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+ <file path="Employees/Samuel/Work/DeviceScanner" name="DeviceScanner.exe">#EOS_SCANNER_EXE#</file>
+ <file path="Employees/Samuel/Work/TunePlay" name="TunePlay.exe">#DLC_MUSIC_EXE#</file>
+ <file path="Employees/Samuel/Work/Prototype/Bouncer" name="Bounce.exe">#FTP_CRACK#</file>
+ <file path="Employees/Samuel/Work/Prototype/ENTERNAcrack" name="ENTERNAcrack.exe">#RTSP_EXE#</file>
+ <file path="Employees/Samuel/Work" name="omega.txt">I found the IP to POINTCLICKER OMEGA! You've seen Release, you've seen Alpha and Beta.. but you've never seen OMEGA EDITION! It's the BEST. Trusttt me: 156.183.121.6</file>
+ 
+ <file path="Employees/Marita/Plagirism/Samuel/PhatBeetsies" name="PhatBeetsies.exe">#DLC_MUSIC_EXE#</file>
+ <file path="Employees/Marita/Plagirism/Samuel/XSERVERULTIMATETRON" name="XSERVERULTIMATETRON.exe">#THEMECHANGER_EXE#</file>
+ <file path="Employees/Marita/Plagirism/Bradford/NutDecyphar" name="NutDecyphar.exe">#DECYPHER_PROGRAM#</file>
+ 
+ <file path="Employees/Bradford/Rants" name="Marita_Rant.txt">SO! One of our dear beloved employees decided they would have a brain transplant with a monkey, they figured out they are no longer a smart person and starting plagirizing everyone's work. Including Samuel McGenius Man himself, meaning I can't do anything without GOSH DARN MARITA plagirizing my work.. darn it ENTERNA JUST FIRE HER ALREADY.</file>
+ <file path="Employees/Bradford/Rants" name="Manx_Rant.txt">So I think Manx is also ranting on Marita, by plagirizing their plagirism which Marita plagirized from Samuel which makes me freaking confused! Also, btw don't PLAGIRIZE!</file>
+ <encryptedFile path="Employees/Bradford/Beats/encrypted" name="WeAreNumberTwo.dec" extension=".mp3" header="BRADFORD BEATS(TM)">#BINARY#</encryptedFile>
+ <file path="Employees/Bradford/Work/Betas/NotDecypher" name="NotDecypher.exe">#DECYPHER_PROGRAM#</file>
+ 
+ <file path="Employees/Manx/Plagirism/Marita/PhatterBeatsies" name="PhatterBeatsies.exe">#DLC_MUSIC_EXE#</file>
+ 
+ <file path="ENTERNA/Router/Hardware/Authorized" name="Manx.txt">Manx - Crapposter of the Legends</file>
+ <file path="ENTERNA/Router/Hardware/Authorized" name="Bradford.txt">Bradford - Mr. Rant</file>
+ <file path="ENTERNA/Router/Hardware/Authorized" name="Marita.txt">Marita - Mrs. Plagirism</file>
+ <file path="ENTERNA/Router/Hardware" name="sysinfo.sys">#BINARYSMALL#</file>
+ <file path="ENTERNA/Router/Hardware" name="Router_Hardware.dll">#BINARY#</file>
+ <file path="ENTERNA/Router/Hardware" name="Router_Hardware-DO_NOT_DELETE.txt">DO NOT DELETE Router_Hardware.dll, this is the main hardware of the router. If Marita deletes it then she will not get any more internet awh *CUE MONKEY SOUNDS*</file>
+ <file path="ENTERNA/Router/Hardware" name="Router_Hardware-DO_NOT_DELETE_TWO.txt">You just deleted it didn't you? Well crap, this is the rise of a war MARITA! *CUE ANGRY MONKEY SOUNDS*</file>
+ 
+ <dlink target="enternaFiledrop" />
+</Computer>

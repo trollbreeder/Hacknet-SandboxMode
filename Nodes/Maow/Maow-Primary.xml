@@ -1,0 +1,17 @@
+<Computer id="maowPrimary" name="Maow Primary" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80, 104, 6881</ports>
+ <portsForCrack val="7" />
+ <proxy time="1" />
+ <firewall level="12" solution="123456789abc" additionalTime="1.0"/>
+ 
+ <tracker />
+ 
+ <file path="bin" name="NortronAntivirus.exe">#BINARYSMALL#</file>
+ <file path="sys" name="NortronFirewall.dll">#BINARY#</file>
+ <file path="sys" name="FirewallSetup.sys">Password-123456789abc</file>
+ <file path="home" name="NoteToSelf.txt">...STOP USING NORTRON OKAY MAOW!? AVAST IS WAY BETTER AND ALMOST EVERYONE USES IT!</file>
+ 
+</Computer>

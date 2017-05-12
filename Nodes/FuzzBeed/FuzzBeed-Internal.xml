@@ -1,0 +1,14 @@
+<Computer id="fuzzbeedInternal" name="Fuzzbeed Internal" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="1" > 
+
+ <WhitelistAuthenticatorDaemon Remote="fuzzbeedWhitelist"/>
+
+ <ports>22, 554, 21</ports>
+ <portsForCrack val="3" />
+ <portRemap>22=321,554=123,21=231</portRemap>
+ <proxy time="3" />
+ <trace time="700" />
+ 
+ <file path="bin" name="SQL_CorruptMem.exe">#SQL_CRACK#</file>
+ 
+ <dlink target="enternaIRC" />
+</Computer>

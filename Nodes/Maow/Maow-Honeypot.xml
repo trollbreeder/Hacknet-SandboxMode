@@ -1,0 +1,16 @@
+<Computer id="maowHoneypot" name="Totally Maow Webfront" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="5" />
+ <proxy time="3" />
+ <trace time="4" />
+ 
+ <tracker />
+ 
+ <adminPass pass="honeypot" />
+ 
+ <file path="home/homeypot" name="notice.txt">Inconvient to make the password for a Honeypot, honeypot.</file>
+ 
+</Computer>

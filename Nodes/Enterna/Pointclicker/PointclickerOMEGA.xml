@@ -1,0 +1,8 @@
+<Computer id="pointclickerOmega" name="PointClicker OMEGA" security="2" allowsDefaultBootModule="true" icon="DLCServer" type="1" ip="156.183.121.6"> 
+
+ <ports>22, 21, 25, 80</ports>
+ <portsForCrack val="0" />
+ 
+ <PointClicker />
+ 
+</Computer>

@@ -1,0 +1,30 @@
+<Computer id="pmPersonal" name="PM-Ryan" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+ <SongChangerDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="4" />
+ <portRemap>554=65,1433=2433,21=8080</portRemap>
+
+ <file path="PMsystem" name="CustomBootup.txt">Hello, Ryan! Welcome back to your ProcrastinationMachine-OS System! Have fun procrastinating on your machine.</file>
+ <file path="PMsystem" name="CustomColor.sys">#BINARYSMALL#</file>
+ <customthemefile path="PMsystem/" name="CustomBackground.sys" themePath="Themes/RyanTheme.xml"/>
+ <file path="PMsystem" name="BGChange-Hardware.exe">#THEMECHANGER_EXE#</file>
+ <file path="PMsystem" name="TuneServer.sys">#BINARY#</file>
+ 
+ <file path="Work" name="Note.txt">In this, I have divised a plan. If you look closer which I recommend you do not do you will probably find out what the plan is.</file>
+ <file path="Work/ENTERNA" name="ENTERNAcrack.exe">#RTSP_EXE#</file>
+ <file path="Work/ENTERNA" name="ENTERNAbackdoor.exe">#BINARYSMALL#</file>
+ <file path="Work/ENTERNA" name="ENTERNApasswords.txt">WIP, haven't hacked them and gotten all them passwords yet :P</file>
+ <file path="Work/ENTERNA" name="Contact.txt">Anonymous Contact, traced them and found their IP. Says they'll help. Sounds.. nice?</file>
+ <file path="Work/ENTERNA" name="ENTERNAtrace.exe">#BINARY#</file>
+ <file path="Work/ENTERNA" name="PortHack.exe">#BINARY#</file>
+ <file path="Work/ENTERNA" name="Plan.txt">Plan: Infiltrate ENTERNA Mainframe Servers</file>
+ <file path="Work/ENTERNA" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+ <file path="Work/ENTERNA" name="ENTERNAcloak.exe">#BINARY#</file>
+ <file path="Work/ENTERNA" name="VendingMachineHack.exe">#BINARYSMALL#</file>
+ <file path="Work/ENTERNA" name="ENTERNAfinish.exe">#BINARY#</file>
+ <file path="Work/ENTERNA" name="ENTERNAtrojan.exe">#BINARYSMALL#</file>
+ 
+</Computer>

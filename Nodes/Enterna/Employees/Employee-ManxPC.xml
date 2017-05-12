@@ -1,0 +1,10 @@
+<Computer id="enternaManx" name="ENTERNA-OFFICE-MANX" security="2" allowsDefaultBootModule="false" icon="laptop" type="1" > 
+
+ <CustomConnectDisplayDaemon />
+
+ <ports>22, 554, 21, 1433, 80</ports>
+ <portsForCrack val="2" />
+ <portRemap>554=65,1433=2433</portRemap>
+
+ <dlink target="enternaRyan" />
+ </Computer>

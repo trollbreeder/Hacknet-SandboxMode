@@ -1,0 +1,18 @@
+<Computer id="fuzzbeedMail" name="FuzzBeed Official Mailserver" security="2" allowsDefaultBootModule="true" icon="chip" type="1" > 
+ 
+ <ports>554</ports>
+ <portsForCrack val="1" />
+ <portRemap>554=4711</portRemap>
+ <proxy time="1" />
+ 
+ <file path="bin" name="CrackSSH.exe">#SSH_CRACK#</file>
+ 
+ <account username="Steve" password="101" type="2" />
+ <account username="steve" password="IOI" type="2" />
+ 
+ <mailServer name="FuzzBeed Mail" color="50,237,212"> 
+ <email recipient="steve" sender="Steve" subject="Buffzeed Termination">STEVE YOU ARE FIRED THIS INSTANT! STOP SPAMMING 101 AND IOI ALL THE TIME YOU IMBECILE! GO AWAY NOW! YOU ARE FIRED!!!!!!!!!!!!!</email> 
+ </mailServer>
+ 
+ <dlink target="fuzzbeedWhitelist" />
+</Computer>
