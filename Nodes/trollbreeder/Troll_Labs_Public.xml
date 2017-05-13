@@ -10,20 +10,20 @@
   <admin type="none"/>
   
   
-  <customthemefile path="home/ricing" name="Tri_x-server.sys" themePath="Themes/TriTheme.xml"/>
+  <customthemefile path="home/ricing" name="Tri_x-server.sys" themePath="Themes/tri.xml"/>
   <file path="home/ricing" name="info.txt">Tri is a grey theme. It is simply amazing. Grey here, grey there. There are some exceptions to the greyness, but mostly grey.
 
 Oh, and one more thing, themechanger.exe is in bin/</file>
-  <customthemefile path="home/ricing" name="Miami_x-server.sys" themePath="Themes/MiamiThemeLightBlue.xml"/>
-  <customthemefile path="home/ricing" name="Aurora_x-server.sys" themePath="Themes/IntroTheme.xml"/>
+  <customthemefile path="home/rice" name="Mintux_Aurora.sys" themePath="Themes/aurora.xml"/>
+  <customthemefile path="home/rice" name="Zero.sys" themePath="Themes/Zero.xml"/>
   
   <file path="bin/WIP_Projects" name=".gitignore">nothing rn yay</file>
+  <file path="bin/WIP_Projects/gitkeeptest/" name=".gitkeep">File kept empty to hold folders</file>
   <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
-  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
-  <file path="bin" name="WebServerWorm.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>>
   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
-  <file path="bin/public" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="home" name="M8Chan.txt">cuz i cant get enough MEMZ, here it is: 129.31.36.31</file>
   
   <encryptedFile path="home/protected" name="email_location.dec" ip="localhost" header="Email Location">
     Because I keep forgetting the IP for this damn thing, the IP is:
@@ -31,10 +31,30 @@ Oh, and one more thing, themechanger.exe is in bin/</file>
 	Ok, me?
   </encryptedFile>
   
-  <eosDevice name="trolltest's ePhone 5" id="eTrollTest" icon="ePhone" empty="true">
+  <eosDevice name="trolltest's SaxFone Universe X7" id="eTrollTest" icon="ePhone" empty="true">
 	<note>Hey B.R.A.P
 If you can read this, our program works!</note>
-    <mail username="dev@trollmail.com" pass="TitoDickDickmanBaby" />
+    <mail username="dev@trollmail.com" pass="thismailboxismine" />
+    <note>GREENSTACKS WTF
+WHY U GIVING ME GARBAGE LIKE SUGER SQUASH</note>
+    <note>To do list
+Speedrun Cracknet Mazes
+Find out about Matrix' past
+Watch this thing: https://www.metube.com/watch?v=Z2zkKHEWZ7o
+Play ScriptLink (god its dead)</note>
+    <note>Gov Conspiracies
+1. US Goverment wants a decypher program for DEC files. This invades privacy
+2. Goverment wants Pointclicker to store every single ip that plays pointclicker on a server. Again, privacy invasion!
+3. Goverment wants a Wazzapp backdoor to "fight against terrorism". AGAIN, PRIVACY INVASION
+4. Snapple VS Appel. Who has the most privacy? Snapple. BECAUSE APPEL PUTS A BACKDOOR IN ITS "IMPROVED" EOS VERSIONS!
+5. VPS' will dissapear due to stupid govs.
+6. AHOY STEALS MEH DATA! And sells it to the gov. And other shitheads like Moodel (privacy stealers).
+7. Privacy invasion. Privacy invasion. Privacy invasion. Privacy invasion. Privacy invasion. Privacy invasion. Privacy invasion. Privacy invasion.
+8. If all of this is correct, i can get into Ahoy, scan their net, snoop around the connected links and get into the gov.
+9. GOVERMENT IF YOU ARE READING THIS, THEN GO FUCK YOURSELf! STOP STEALING MY PERSONAL DETAILS</note>
+    <file path="eos/greenstacks/" name="greenhub.exe">#BINARY#</file>
+    <file path="eos/greenstacks/" name="Info.txt">Custom Emulation. Configuration Emulation: [X7 Emu by EMU], apporganize.exe == "netmap_organize"</file>
+    <file path="eos/greenstacks/" name="apporganize.exe">#NETMAP_ORGANIZER_EXE#</file>
  </eosDevice>
  
  <CustomConnectDisplayDaemon />
